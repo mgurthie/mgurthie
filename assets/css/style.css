@@ -1,15 +1,8 @@
-/**
-* Template Name: MyResume - v4.7.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #272829;
 }
 
@@ -23,8 +16,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -72,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -157,7 +155,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
 }
-.nav-menu a, .nav-menu a:focus {
+.nav-menu a,
+.nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #45505b;
@@ -172,34 +171,46 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   transition: 0.3s;
 }
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
   font-size: 20px;
 }
-.nav-menu a span, .nav-menu a:focus span {
+.nav-menu a span,
+.nav-menu a:focus span {
   padding: 0 5px 0 7px;
   color: #45505b;
 }
 @media (min-width: 992px) {
-  .nav-menu a, .nav-menu a:focus {
+  .nav-menu a,
+  .nav-menu a:focus {
     width: 56px;
   }
-  .nav-menu a span, .nav-menu a:focus span {
+  .nav-menu a span,
+  .nav-menu a:focus span {
     display: none;
     color: #fff;
   }
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
   color: #fff;
   background: #0563bb;
 }
-.nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu .active span,
+.nav-menu .active:focus span,
+.nav-menu li:hover > a span {
   color: #fff;
 }
-.nav-menu a:hover, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu li:hover > a {
   width: 100%;
   color: #fff;
 }
-.nav-menu a:hover span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu li:hover > a span {
   display: block;
 }
 
@@ -242,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/towers.png") top right no-repeat;
+  background: url('../img/towers.png') top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -252,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #hero:before {
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
@@ -271,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #hero p span {
   color: #0563bb;
@@ -328,7 +339,7 @@ section {
   color: #45505b;
 }
 .section-title h2::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 120px;
@@ -338,7 +349,7 @@ section {
   left: calc(50% - 60px);
 }
 .section-title h2::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 40px;
@@ -416,7 +427,7 @@ section {
 .facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
 }
 
@@ -435,7 +446,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #45505b;
 }
 .skills .progress .skill .val {
@@ -533,7 +544,8 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #0563bb;
 }
 .portfolio #portfolio-flters li:last-child {
@@ -547,7 +559,7 @@ section {
   background: rgba(69, 80, 91, 0.8);
 }
 .portfolio .portfolio-wrap::before {
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
   left: 30px;
@@ -575,7 +587,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
-  content: "";
+  content: '';
   width: 48px;
   height: 48px;
   position: absolute;
@@ -588,7 +600,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
-  content: "";
+  content: '';
   width: 48px;
   height: 48px;
   position: absolute;
@@ -698,7 +710,6 @@ section {
   padding: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -732,10 +743,13 @@ section {
   font-size: 14px;
   color: #728394;
 }
-.contact .info .email, .contact .info .phone {
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
 }
@@ -772,7 +786,7 @@ section {
   padding: 15px;
 }
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -783,7 +797,8 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
@@ -794,7 +809,7 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type='submit'] {
   background: #0563bb;
   border: 0;
   padding: 10px 35px;
@@ -802,7 +817,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type='submit']:hover {
   background: #0678e3;
 }
 @-webkit-keyframes animate-loading {
@@ -836,7 +851,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }

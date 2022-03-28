@@ -2,8 +2,6 @@
 /**
  * PHP Email Form
  * Version: 3.2
- * Website: https://bootstrapmade.com/php-email-form/
- * Copyright: BootstrapMade.com
  */
 
 if ( version_compare(phpversion(), '5.5.0', '<') ) {
